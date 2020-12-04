@@ -1,0 +1,223 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background-color: #298fca; 
+}
+
+h1 {
+
+padding: 20px;
+font-size: 25px;
+text-align: center;
+color:rgb(255, 255, 255);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.textview {
+
+user-select: none; /* This removes text-highlight form behind the numbers */
+font-family: Impact;
+justify-content: center;
+display: block;
+text-align: center;
+opacity: 0.3;
+margin: 0 auto;
+border: 0px;
+height: 30px;
+width: 208px;
+font-size: 20px;
+}
+
+.containerOne { /* This contains all buttons */
+
+margin: 0 auto;
+max-width: 216px;
+max-height: 216px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+button { /* The backside of the button/button itself */
+
+border-radius: 22px;
+height: 50px;
+width: 50px;
+border: none;
+font-size: 30px;
+justify-content: center;
+margin: 2px;
+color: white;
+background-color: #5ba4cf;
+}
+
+.btn { /* The frontside of the button */
+ 
+  user-select: none; /* This makes the user unable to select/highlight the text inside the calculator buttons */
+  font-family: Impact;
+  position: center;  
+  flex: 1 1 auto;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 1s; /* How long the animation will take to fully execute */
+  background-size: 500% auto;
+  color: rgb(214, 214, 214); /* Color of the numbers/text inside the buttons */   
+  text-shadow: 0.5px 0.5px 2px black;
+  border-radius: 20px;    
+}
+
+.buttonC {
+
+  background-image: linear-gradient(to right, #69cee0 0%, #298fca 100%);
+
+}
+
+.buttonPlus {
+
+  background-image: linear-gradient(to right, #69cee0 0%, #298fca 100%);
+
+}
+
+.buttonMinus {
+
+  background-image: linear-gradient(to right, #69cee0 0%, #298fca 100%);
+
+}
+
+.buttonX {
+
+  background-image: linear-gradient(to right, #69cee0 0%, #298fca 100%);
+
+}
+
+.buttonDiv {
+
+  background-image: linear-gradient(to right, #69cee0 0%, #298fca 100%);
+
+}
+
+.buttonPi {
+
+  background-image: linear-gradient(to right, #69cee0 0%, #298fca 100%);
+
+}
+
+
+.buttonDecimal {
+
+  background-image: linear-gradient(to right, #69cee0 0%, #298fca 100%);
+
+}
+
+.buttonEquals {
+
+  background-image: linear-gradient(to right, #69cee0 0%, #298fca 100%);
+  
+}
+
+.buttonBackspace {
+
+  background-image: linear-gradient(to right, #69cee0 0%, #298fca 100%);
+
+}
+
+.buttonBracketOne{
+
+  background-image: linear-gradient(to right, #69cee0 0%, #298fca 100%);
+
+}
+
+.buttonBracketTwo{
+
+  background-image: linear-gradient(to right, #69cee0 0%, #298fca 100%);
+
+}
+
+/* All buttons above are all function button styles. */
+/* Beyond this point are all number button styles. */
+
+.buttonSeven {
+
+  background-image: linear-gradient(to right, #298fca 0%, #69cee0 100%);
+
+}
+
+.buttonEight {
+
+  background-image: linear-gradient(to right, #298fca 0%, #69cee0 100%);
+
+}
+
+.buttonNine {
+
+  background-image: linear-gradient(to right, #298fca 0%, #69cee0 100%);
+
+}
+
+.buttonFour {
+
+  background-image: linear-gradient(to right, #298fca 0%, #69cee0 100%);
+
+}
+
+.buttonFive {
+
+  background-image: linear-gradient(to right, #298fca 0%, #69cee0 100%);
+
+}
+
+.buttonSix {
+
+  background-image: linear-gradient(to right, #298fca 0%, #69cee0 100%);
+  
+}
+
+.buttonOne {
+
+  background-image: linear-gradient(to right, #298fca 0%, #69cee0 100%);
+
+}
+
+.buttonTwo {
+
+  background-image: linear-gradient(to right, #298fca 0%, #69cee0 100%);
+
+}
+
+.buttonThree {
+
+  background-image: linear-gradient(to right, #298fca 0%, #69cee0 100%);
+
+}
+
+.buttonZero {
+
+  background-image: linear-gradient(to right, #298fca 0%, #69cee0 100%);
+
+}
+
+
+.btn:hover {
+  cursor: pointer;
+  background-position: center right;
+}
+
+button:active,
+button:focus {
+  outline: none; 
+}
+
+.textview:focus,
+.textview:active {
+  outline: none;
+}
+
