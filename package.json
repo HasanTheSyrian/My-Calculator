@@ -51,6 +51,14 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.52",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.52",
     "@electron-forge/maker-zip": "^6.0.0-beta.52",
-    "electron": "9.2.0"
-  }
+    "electron": "^9.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HasanTheSyrianDev/My-Calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HasanTheSyrianDev/My-Calculator/issues"
+  },
+  "homepage": "https://github.com/HasanTheSyrianDev/My-Calculator#readme"
 }

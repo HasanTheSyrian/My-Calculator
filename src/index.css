@@ -58,6 +58,7 @@ justify-content: center;
 margin: 2px;
 color: white;
 background-color: #5ba4cf;
+
 }
 
 .btn { /* The frontside of the button */
@@ -73,6 +74,7 @@ background-color: #5ba4cf;
   color: rgb(214, 214, 214); /* Color of the numbers/text inside the buttons */   
   text-shadow: 0.5px 0.5px 2px black;
   border-radius: 20px;    
+  
 }
 
 .buttonC {
